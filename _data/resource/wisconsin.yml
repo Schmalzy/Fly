@@ -1,0 +1,13 @@
+title: Wisconsin Specific
+items:
+  - name        : Private Forest Lands Open for Recreation
+    description : Public Lands Map with Trout Streams - Mobile Friendly
+    url         : http://dnrmaps.wi.gov/opfl/
+
+  - name        : Driftless Angler Fishing Reports
+    description : Daily Fishing Reports for the Dirftless Area 
+    url         : http://www.driftlessangler.com/blog/
+    
+  - name        : USGS Fish Stocking Map
+    description : Exact dates and coordinates of fish stocking (interactive Maps) 
+    url         : https://cida.usgs.gov/wdnr_fishmap/map/

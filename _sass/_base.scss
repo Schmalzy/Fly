@@ -15,36 +15,41 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: $font-family-serif;
+  font-size: $font-size-sm;
+  line-height: $font-line-height;
 
-  @media (min-width: 38em) {
-    font-size: 18px;
+  @media (min-width: $break-point-desktop) {
+    font-size: $font-size-lg;
   }
 }
 
 body {
-  color: #515151;
-  background-color: #fff;
+  color: $font-color-base;
+  background-color: $page-bg-color;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 
 // No `:visited` state is required by default (browsers will use `a`)
 a {
-  color: #268bd2;
-  text-decoration: none;
+    font-weight: inherit;
+    line-height: inherit;
+    color: $link-color-base;
+    border-bottom: 1px solid #ddd;
+    text-decoration: none;
+    -webkit-transition: border .2s ease-in-out;
+       -moz-transition: border .2s ease-in-out;
+            transition: border .2s ease-in-out;
+    
+    &:hover {
+        border-bottom-color: #000;
+        text-decoration: none;
+    }
 
-  // `:focus` is linked to `:hover` for basic accessibility
-  &:hover,
-  &:focus {
-    text-decoration: underline;
-  }
-
-  strong {
-    color: inherit;
-  }
+    strong {
+        color: inherit;
+    }
 }
 
 img {
@@ -58,14 +63,14 @@ table {
   margin-bottom: 1rem;
   width: 100%;
   font-size: 85%;
-  border: 1px solid #e5e5e5;
+  border: 1px solid $border-trim-color;
   border-collapse: collapse;
 }
 
 td,
 th {
   padding: .25rem .5rem;
-  border: 1px solid #e5e5e5;
+  border: 1px solid $border-trim-color;
 }
 
 th {

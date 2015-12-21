@@ -1,0 +1,28 @@
+---
+layout: page
+title: Resources
+permalink: /resources/
+---
+
+{% for resource_hash in site.data.resource %}
+	{% assign resource = resource_hash[1] %}
+	<section>
+		<h2>{{ resource.title }}</h2>
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Description</th>
+				</tr>	
+			</thead>
+			<tbody>
+			{% for item in resource.items %}
+				<tr>
+					<td><a href="{{ item.url }}" target="_blank">{{ item.name }}</a></td>
+					<td>{{ item.description }}</td>
+				</tr>	
+			{% endfor %}
+			</tbody>
+		</table>
+	</section>
+{% endfor %}

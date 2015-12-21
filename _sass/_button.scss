@@ -1,0 +1,24 @@
+
+
+.btn {
+    display: inline-block;
+    padding: .25rem 1rem;    
+    background-color: $brand-primary;
+    color: #fff;
+    font-weight: 300;
+    border-bottom: none;
+    transition: none;
+    border-radius: .2em;
+        
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: darken($brand-primary,6.5%);
+        text-decoration: none;
+        border-bottom: none;
+    }
+}
+
+.btn-large {
+    padding: .75rem 4rem;
+}

@@ -1,16 +1,17 @@
 
 # Setup
 title:               Bush League Bum
-tagline:             fly fishing for the rest of us
+tagline:             Fly fishing for the rest of us.
 url:                 http://localhost:4000
 baseurl:             ""
+permalink:           none
 
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
 sass:
   sass_dir:          _sass
-  style:            :compressed
+#  style:            :compressed
 
 # About/contact
 author:
@@ -19,11 +20,11 @@ author:
   email:             brandon.schmalz.bs@gmail.com
 
 # Custom vars
-version:             0.0.1
+version:             0.1.0
 github:
   repo:              
 
 # Build settings
 markdown:            kramdown
-paginate:            1 
+paginate:            1
 gems:                [jekyll-paginate]

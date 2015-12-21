@@ -5,26 +5,22 @@
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin: 3rem 0;
 }
 
-// Blog post or page title
-.page-title,
-.post-title,
-.post-title a {
-  color: #303030;
-}
 .page-title,
 .post-title {
   margin-top: 0;
+  margin-bottom: 2rem;
 }
 
-// Meta data line below post title
+// Meta data line on top of post title
 .post-date {
   display: block;
+  font-size: .8rem;
   margin-top: -.5rem;
-  margin-bottom: 1rem;
-  color: #9a9a9a;
+  margin-bottom: 0;
+  color: $font-color-muted;
 }
 
 
@@ -32,7 +28,7 @@
 .related {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  border-top: 1px solid #eee;
+  border-top: 1px solid $border-trim-color;
 }
 
 .related-posts {
@@ -48,14 +44,32 @@
       font-size: 75%;
       color: #999;
     }
-
-    a:hover {
-      color: #268bd2;
-      text-decoration: none;
-
-      small {
-        color: inherit;
-      }
-    }
   }
+}
+
+.post-list {
+    margin-bottom: 3rem;
+}
+
+.post-list-year,
+.post-list-category {
+    font-weight: 400;
+}
+
+.post-list-item {
+    margin-bottom: 1rem;
+    
+    @media (min-width: $break-point-desktop) {
+       margin-bottom: .5rem;     
+    }
+}
+
+.post-list-date {
+    display: block;
+    float: none;
+    color: $font-color-muted;
+    
+    @media (min-width: $break-point-desktop) {
+       float: right;      
+    }
 }

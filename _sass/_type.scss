@@ -3,39 +3,49 @@
 // Headings, body text, lists, and other misc typographic elements.
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-sans;
   margin-bottom: .5rem;
-  font-weight: bold;
-  line-height: 1.25;
-  color: #313131;
+  font-weight: $header-font-weight;
+  line-height: 1.1;
+  color: $header-color-base;
+  letter-spacing:  -.025rem;
   text-rendering: optimizeLegibility;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.85rem;
 }
 
 h2 {
-  margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 h3 {
-  margin-top: 1.5rem;
   font-size: 1.25rem;
 }
 
 h4, h5, h6 {
-  margin-top: 1rem;
   font-size: 1rem;
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+    margin: 0 0 1rem;
+}
+
+p + h1, 
+p + h2, 
+p + h3, 
+ul + h1, 
+ul + h2, 
+ul + h3, 
+ol + h1, 
+ol + h2, 
+ol + h3 {
+    margin-top: 1.5rem;
 }
 
 strong {
-  color: #303030;
+  color: $font-color-strong;
 }
 
 ul, ol, dl {
@@ -53,9 +63,10 @@ dd {
 
 hr {
   position: relative;
-  margin: 1.5rem 0;
+  margin-top: 0;
+  margin-bottom: 3rem;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid $border-trim-color;
   border-bottom: 1px solid #fff;
 }
 
@@ -81,7 +92,7 @@ blockquote {
     margin-bottom: 0;
   }
 
-  @media (min-width: 30em) {
+  @media (min-width: $break-point-desktop) {
     padding-right: 5rem;
     padding-left: 1.25rem;
   }

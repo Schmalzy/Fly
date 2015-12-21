@@ -3,31 +3,30 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<section class="jumbotron">
+    <div class="container">
+        <h1>IT'S ANYONE'S GAME</h1>
+        <p>You don't have to be rich, move out west, or dedicate your entire life to enjoy fly fishing.</p>
+        <a class="btn btn-large" href="/posts-by-date-asc/">Start Here</a>
+    </div>
+</section>
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+<div class="container">
+    {% include intro.html %}
+    <hr>
+    <section class="post-list">
+    {% for post in site.posts %}
+        {% capture currentyear %}{{ post.date | date: "%Y" }}{% endcapture %}
+        {% if currentyear != year %}
+            <h2 class="post-list-year">{{ currentyear }}</h2>
+        {% capture year %}{{ currentyear }}{% endcapture %}
+        {% endif %}
 
-    {{ post.content }}
-  </article>
-  {% endfor %}
-</div>
+        <div class="post-list-item">
+            <span class="post-list-date">{{ post.date | date: '%B %d, %Y' }}</span>
+            <a class="post-list-link" href="{{ post.url }}">{{ post.title }}</a>
+        </div>
+    {% endfor %}
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
+    </section>
 </div>
