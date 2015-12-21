@@ -28,7 +28,7 @@
 .header-tagline {
     display: none;
     
-    @media (min-width: $break-point-desktop) {
+    @media (min-width: $break-point-md) {
         display: inline;
         letter-spacing: 0;
         margin-left: .5rem;

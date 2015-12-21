@@ -5,7 +5,7 @@ title: "Posts by Category"
 
 <section class="post-list">
 {% for category in site.categories %}
-    <h2 class="post-list-category">{{ category | first }}</h2>
+    <h2 class="post-list-header">{{ category | first }}</h2>
     {% for posts in category %}
       {% for post in posts %}
         {% if post.title != "" %}

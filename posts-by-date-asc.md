@@ -9,7 +9,7 @@ title: "Start from the beginning"
 
     {% capture currentyear %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% if currentyear != year %}
-      <h2 class="post-list-year">{{ currentyear }}</h2>
+      <h2 class="post-list-header">{{ currentyear }}</h2>
       {% capture year %}{{ currentyear }}{% endcapture %}
     {% endif %}
 

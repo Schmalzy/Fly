@@ -19,7 +19,7 @@ html {
   font-size: $font-size-sm;
   line-height: $font-line-height;
 
-  @media (min-width: $break-point-desktop) {
+  @media (min-width: $break-point-md) {
     font-size: $font-size-lg;
   }
 }

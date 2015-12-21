@@ -29,7 +29,7 @@
   width: 100%;
 }
 
-@media (min-width: $break-point-desktop) {
+@media (min-width: $break-point-md) {
   [class*='col-'] {
     float:left;
     padding-right: $grid-padding;

@@ -12,7 +12,7 @@
 	margin-bottom: 1rem;
     text-align: left;
     
-    @media (min-width: $break-point-desktop) {
+    @media (min-width: $break-point-md) {
         padding: 0.5rem;
         margin-bottom: 0;
         text-align: center;      
@@ -30,7 +30,7 @@
     font-weight: 300;
     color: $font-color-muted;
     
-    @media (min-width: $break-point-desktop) {
+    @media (min-width: $break-point-md) {
         min-height: 4em;
     }
 }

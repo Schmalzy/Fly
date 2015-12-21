@@ -10,7 +10,6 @@
 
 .page-title,
 .post-title {
-  margin-top: 0;
   margin-bottom: 2rem;
 }
 
@@ -23,44 +22,19 @@
   color: $font-color-muted;
 }
 
-
-// Related posts
-.related {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border-top: 1px solid $border-trim-color;
-}
-
-.related-posts {
-  padding-left: 0;
-  list-style: none;
-
-  h3 {
-    margin-top: 0;
-  }
-
-  li {
-    small {
-      font-size: 75%;
-      color: #999;
-    }
-  }
-}
-
 .post-list {
     margin-bottom: 3rem;
-}
-
-.post-list-year,
-.post-list-category {
-    font-weight: 400;
 }
 
 .post-list-item {
     margin-bottom: 1rem;
     
-    @media (min-width: $break-point-desktop) {
+    @media (min-width: $break-point-md) {
        margin-bottom: .5rem;     
+    }
+    
+    + .post-list-header {
+      margin-top: 2rem;
     }
 }
 
@@ -69,7 +43,7 @@
     float: none;
     color: $font-color-muted;
     
-    @media (min-width: $break-point-desktop) {
+    @media (min-width: $break-point-md) {
        float: right;      
     }
 }

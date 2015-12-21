@@ -26,5 +26,5 @@ github:
 
 # Build settings
 markdown:            kramdown
-paginate:            1
-gems:                [jekyll-paginate]
+#paginate:            1
+#gems:                [jekyll-paginate]
