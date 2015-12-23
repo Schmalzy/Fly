@@ -2,7 +2,6 @@
 
 //== Colors
 //
-//## Gray and brand colors
 
 $gray-base:                  #000;
 $gray-darker:                lighten($gray-base, 13.5%); // #222
@@ -13,11 +12,12 @@ $gray-lighter:               lighten($gray-base, 60.5%); // #9a9a9a
 
 $brand-primary:              darken(#428bca, 6.5%);    // #337ab7
 
+
 //== Type
 //
 
-$font-family-sans:           'Roboto', sans-serif; //"open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-family-serif:          'Droid Serif', serif;
+$font-family-sans:           'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif:          'Droid Serif', Georgia, serif;
 
 $font-size-sm:               16px !default;
 $font-size-lg:               18px !default;
@@ -32,9 +32,9 @@ $link-color-base:            $gray-darker !default;
 $header-color-base:          $gray-dark !default;
 $header-font-weight:         400 !default; 
 
+
 //== Layout
 //
-
 
 $break-point-md:             768px !default;
 $break-point-lg:             1200px !default;

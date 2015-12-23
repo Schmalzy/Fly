@@ -5,38 +5,33 @@ date:   2015-11-26
 category: Informational
 ---
 
-When I first descided to give fly fishing a try, I did not know a single person I could ask for advice.
-This made just getting strated and learning the basics the hardest part.
-With no one to help guide me, the next logical place to go was Google.
+When I first descided to give fly fishing a try, I didn't know anyone who fly fishes.
+This made just getting strated and learning the basics very difficult.
+I had a lot of questions and no one to ask them too.
+So then the next logical place to look for answers was Google.
 
-While I was able to find the info I needed online, but I also found that the fly fishing community is not the most tech-savy bunch.
-Most infomrational (non-commercial) sites look like there straight out of the days of AOL and Dial-up connections.
-This does not make the content any less true or valuable, but it does make it harder to find quality advice.
+While I was able to find the info I needed online, I also found that the fly fishing community is not the most tech-savy bunch.
+Most infomrational (non-commercial) sites look like there straight out of the days of AOL and Dial-up connections, and haven't been updated since Y2K was a thing.
+This does not make the content of the sites any less valuable, but it does make it harder to find answers.
 
-This blog is my attempt to share and consolidate all of the usefull things I have found an learned over the past few years.
+This blog is my way of trying to bring the fly fishing community into the modern age.
+It's an attempt to share and consolidate all of the usefull things I have found and learned over the past few years.
 Hopefully it will save beginners out there some time and money in the process.
 
 ## Investments
-Lets just get this out in the open [testing inline link](/resources/), you are going to have to invest your hard-earned time ane money.
+Getting into any outdoor sport is an investment, and fly 
 But it's actually not as bad as you would think.
-
+Start with the bare essentials and work your way up from there.
 
 ## Bare Essentials
-There are six things need to start fly fishing.
+There are six things need to start fly fishing. 
+If someone tells you otherwise, they are just trying to sell you something.
 
-1. Rod
-2. Reel
-3. Line
-4. Leader
-5. Fly
-6. Water
+1. [Rod](/informational/rod.html)
+2. [Reel](/informational/reel.html)
+3. [Fly Line](/informational/line.html)
+4. [Leader](/informational/Leader.html)
+5. [Flies](/informational/flies.html)
+6. [Water](/informational/water.html)
 
 
-## #4 Leader
-Get the right length and tippet.
-
-## #5 Fly
-Pick one...
-
-## #6 Water
-Start simple, bass and bluegill pond.

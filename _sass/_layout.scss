@@ -14,10 +14,7 @@
 
 .grid {
   background: white;
-  margin-top: 0;
-  margin-bottom: $grid-padding;
-  margin-left: ($grid-padding * -1);
-  margin-right: ($grid-padding * -1);
+  margin: 0 ($grid-padding * -1);
   
   @include clearfix;
 }
@@ -26,7 +23,7 @@
   float: none;
   padding-left: $grid-padding;
   padding-right: $grid-padding;
-  width: 100%;
+  width: 100%; 
 }
 
 @media (min-width: $break-point-md) {
