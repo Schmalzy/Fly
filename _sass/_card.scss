@@ -1,0 +1,20 @@
+.card {
+  position: relative;
+  display: block;
+  margin-bottom: .75rem;
+  background-color: #fff;
+  padding: .5rem;
+}
+
+@media (min-width: $break-point-md) {
+  .card-deck {
+    display: table;
+    table-layout: fixed;
+    border-collapse: collapse;
+  }
+  .card-deck .card {
+    display: table-cell;
+    width: 1%;
+    vertical-align: top;
+  }
+}

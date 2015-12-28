@@ -13,6 +13,17 @@
   margin-bottom: 2rem;
 }
 
+.page-title-lead {
+    margin-bottom: 0;
+}
+
+.page-lead {
+    margin-bottom: 2rem;
+    color: $font-color-muted;
+    font-family: $font-family-sans;
+    font-weight: 300;
+}
+
 // Meta data line on top of post title
 .post-date {
   display: block;
@@ -29,7 +40,7 @@
 .post-list-item {
     margin-bottom: 1rem;
     
-    @media (min-width: $break-point-md) {
+    @media (min-width: $break-point-sm) {
        margin-bottom: .5rem;     
     }
     
@@ -43,7 +54,7 @@
     float: none;
     color: $font-color-muted;
     
-    @media (min-width: $break-point-md) {
+    @media (min-width: $break-point-sm) {
        float: right;      
     }
 }

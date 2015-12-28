@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Start from the beginning"
+lead: "This blog can be read from the beggining to act a a begginer's guide."
 ---
 
 <section class="post-list">

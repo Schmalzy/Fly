@@ -1,0 +1,12 @@
+---
+layout: page
+title: Gallery
+permalink: /gallery/
+---
+
+{% for gallery_hash in site.data.gallery %}
+	{% assign gallery = gallery_hash[1] %}
+        {% for item in gallery.items %}
+            <img src="{{ item.url}}" alt="{{item.alt}}"/>
+        {% endfor %}
+{% endfor %}

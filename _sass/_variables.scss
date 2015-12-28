@@ -21,7 +21,7 @@ $font-family-serif:          'Droid Serif', Georgia, serif;
 
 $font-size-sm:               16px !default;
 $font-size-lg:               18px !default;
-$font-line-height:           1.58 !default;
+$font-line-height:           1.618 !default;
 
 $font-color-base:            $gray !default;
 $font-color-muted:           $gray-lighter !default;
@@ -36,10 +36,10 @@ $header-font-weight:         400 !default;
 //== Layout
 //
 
-$break-point-md:             768px !default;
+$break-point-sm:             544px !default;
+$break-point-md:             700px !default;
 $break-point-lg:             1200px !default;
 $container-max-width:        700px !default;
-$grid-padding:               8px !default;
 
 $page-bg-color:              #fff !default;
 $border-trim-color:          #e5e5e5 !default;

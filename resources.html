@@ -6,7 +6,7 @@ permalink: /resources/
 
 {% for resource_hash in site.data.resource %}
 	{% assign resource = resource_hash[1] %}
-	<section>
+	<section id="{{ resource.title  | replace:' ','-' }}" class="resource-section">
 		<h2>{{ resource.title }}</h2>
 		<table>
 			<thead>

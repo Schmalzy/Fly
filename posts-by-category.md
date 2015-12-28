@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Posts by Category"
+lead: "View posts by specific category."
 ---
 
 <section class="post-list">

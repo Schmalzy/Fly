@@ -10,48 +10,9 @@
   margin-right: auto;
   
   @include clearfix;
-}
-
-.grid {
-  background: white;
-  margin: 0 ($grid-padding * -1);
   
-  @include clearfix;
-}
-
-[class*='col-'] {
-  float: none;
-  padding-left: $grid-padding;
-  padding-right: $grid-padding;
-  width: 100%; 
-}
-
-@media (min-width: $break-point-md) {
-  [class*='col-'] {
-    float:left;
-    padding-right: $grid-padding;
-  }
-  .col-2-3 {
-    width: 66.66%;
-  }
-  .col-1-3 {
-    width: 33.33%;
-  }
-  .col-1-2 {
-    width: 50%;
-  }
-  .col-1-4 {
-    width: 25%;
-  }
-  .col-1-8 {
-    width: 12.5%;
-  }
-}
-
-/* Opt-in outside padding */
-.grid-pad {
-  padding: $grid-padding 0 $grid-padding $grid-padding;
-  [class*='col-']:last-of-type {
-    padding-right: $grid-padding;
+  @media (min-width: $break-point-md) {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }

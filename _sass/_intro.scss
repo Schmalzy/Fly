@@ -5,34 +5,33 @@
 .intro {
     margin: 3rem 0;
     font-family: $font-family-sans;
-}
-
-.intro .card {
-	padding: 0;
-	margin-bottom: 2rem;
     text-align: center;
     
-    @media (min-width: $break-point-md) {
-        padding: 0.5rem;
-        margin-bottom: 0;    
-    }
-}
-
-.intro h4 {
-    margin-top: 0;
-	font-weight: 400;
-    font-size: 1.4rem;
-}
-
-.intro small {
-    display: block;
-    margin-bottom: .5rem;
-    font-weight: 300;
-    color: $font-color-muted;
-    
-    @media (min-width: $break-point-md) {
-        min-height: 4em;
+    .card:last-of-type {
         margin-bottom: 0;
+    }
+    
+    h4 {
+        margin-top: 0;
+        font-weight: 400;
+        font-size: 1.4rem;
+        white-space: nowrap;
+    }
+    
+    small {
+        display: block;
+        margin-bottom: .5rem;
+        font-weight: 300;
+        color: $font-color-muted;
+        
+        @media (min-width: $break-point-md) {
+            min-height: 4em;
+            margin-bottom: 0;
+        }
+    }
+    
+    .btn {
+        vertical-align: bottom
     }
 }
 
