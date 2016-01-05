@@ -3,15 +3,17 @@
 //== Colors
 //
 
-$gray-base:                  #000;
-$gray-darker:                lighten($gray-base, 13.5%); // #222
-$gray-dark:                  lighten($gray-base, 20%);   // #333
-$gray:                       lighten($gray-base, 33.5%); // #555
-$gray-light:                 lighten($gray-base, 46.7%); // #777
-$gray-lighter:               lighten($gray-base, 60.5%); // #9a9a9a
+$gray-base:                  #000000;
+$gray-darker:                #222222; 
+$gray-dark:                  #333333;
+$gray:                       #515151; 
+$gray-light:                 #777777; 
+$gray-lighter:               #9a9a9a; 
 
-$brand-primary:              darken(#428bca, 6.5%);    // #337ab7
-
+$brand-base:                 #428bca;
+$brand-primary:              darken($brand-base, 6.5%);    // #337ab7
+$brand-alert:                #1abc9c;
+$brand-alert-muted:          #2DC4B9; //lighten($brand-alert, 55%);
 
 //== Type
 //

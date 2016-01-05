@@ -1,0 +1,11 @@
+
+.alert {
+    padding: .5rem 1rem;
+}
+
+.alert-primary {
+    background-color: $brand-alert-muted;
+    color: #fff;
+    font-family: $font-family-sans;
+    font-weight: 300;
+}
